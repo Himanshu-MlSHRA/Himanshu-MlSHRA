@@ -18,7 +18,7 @@
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="mailto:himanshu.2010m@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" height="48" />
+    <img src="https://skillicons.dev/icons?i=gmail" height="48" alt="Gmail"/>
   </a>
 </p>
 
