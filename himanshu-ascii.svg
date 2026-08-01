@@ -1,0 +1,249 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="880" viewBox="0 0 760 880">
+  <defs>
+    <style>
+      @font-face {
+        font-family: 'JBM Medium';
+        src: url(data:font/woff2;base64,d09GMgABAAAAACEIABEAAAAARVQAACCqAAJOFAAAAAAAAAAAAAAAAAAAAAAAAAAAGiIbIBwqBmAAgUYIgSgJnAwRCArgANI4ATYCJAODGAuBTgAEIAUGByAMgVYbkzwV0+0GI7cDCRXZXz6KerVIVQD+/3BAj7naoRQS1ITF1RVDjBBNWEm8I+WYeLXSZXmP4AxFUZBR575TuopuVied+fYkG98BQkJYCMfKr2yez0200mKyJYczdBOk35WZ8e5KwWWT9cMHRkdIMgvP//vT3n3g3kd6kmUgyUAaJOt7QHY8DAp5NKRxiKsfp0AoupQIVdaUQa7+Spmm+BqgbcapA5FVYiKlYuCQuDuqFCzqggkcJ9ixwmW5fWkvw7mI8tO9fHQIz6fN5KJKWIGv/LBnN0AHKFPCPoekoHTec1G7qNVVT3vsl/7aLmK6M0tykldUiD3EJPnHTQ91iYVrOZN8aSeR1e4BwJiLvbdIShaEaxHdjPq+WwsatM2/3IDQTWXzg3MtWn2Am8KAqrQ0P3VRF4c67c4sR5YBa5kUQ8JF0hOkc8fxt7GAP20/Df/zOs31fTkgH/oKCMN2BFO37ft/fUv6MiuoOGQdOmj7wHXJNLhAnF6ZbCVN79gHiFOBN9rm7nOHfSg84X5q712SttusnRWfKAMCVRByQErNaAZhxWwMU4mQ+qaR5+i2DNUKrp0x3QQkpA23/y+HABXE5RVDWFJX7nhhFycRqFXLaTKLbF6wOijROMBgElO6X9hiN/repr+n11xLWQiJWLQrImcJoF9QFApX3/cp72SxqKEoZK+eO4KxW6UrP0l4xfx8y/59E4B/WXZQt0JbGgbmiRVusNVRTZPTMOfHGzbJEEbKIdp04HwqVOq0wnmLfBab5zCvsc6NiJ5aZemMBAY3zhmXBtNgrsV2vWEQJoHjhM4i0AbiX2DrTFws3PwwiCLF8iyhU0DLSs/Aq4SHGcohnxOhUIANzs7nrD4VQIgW5qEtGFj108HvKhz8aaW35//39JQ/1fpUbYw+VMsbdLc68GCpqAdd3VH7lLLCdNJhSwMEHn0/iHw4Y+T2A/H+l+f4Irtf41Ty/Rc0pPNU+qQ10X1jLbwCtdeiwugqBMznaYVCLWHajwZpDm3q0pzrMkKJ0RWd6rqy0kmU32ZCxVF2U4PfzFrt6GB0LLRv2Jbotjo9v39DzCh17YhOxntTuPEHoR3XDqLgUZYYo2ecB+MMaF2NNMKrER5/tbt1mP1Jn3joLRbC+LdPiDb5kXHrxq12ZpDVT+2rr0FKaU0NuyurwRjhMD8MDa+6yVTyF4oJuRq9fL6d55+Ek3ByeWIIwaCBCidw5+EcQbU+xVzCbOzseTobkglUwbMgVQhNCkhaTAoIO5BxqgsVAdIXPKRGSDjyJO5I3RlrA5IrosoxQ4qUpHICQER2GxHIuzpC7q2EpgXUUfJ7vX+oqRzuDnjc83Fk0jh4DTYInXuPJKMbxk5fFQnI2GnpMDWk65W5UwF3Ca2mSAvJJM2KDMJxdJWTM5cK5txGJ4eix97Xt+VosxFh3z22zgNFujO5Kz0tXpIC8RCln5eKNAoPsmiULuYX6ShtJixo6pG5K2UXAZYzEVlXqBKh5nVYDknn4chbozY8tpJQQ9GOQ55hWyuG0BUho8b3nTiNiLvAUA26Q0OtFXVMqpidLmcurbxUqDNKfmzU3WnFMD5888V/euEuZVtnFSP4sOc/fG0IGNttI5cdRWGi+10Z1pKQ4qinIFZEgyu1KxpKQGZUsLB4UaEfdxv5C0a6dahpNdX12W1gQJ0nvU8P1Dhs+HJGMhgsFzMutCAXtIcQtltRvW23McwVOg6/eYbdSZ+qO0onZCfxdHJuXsbnLsw557QAoyUjpYz2Jb6YFu+EinEUpjsVE7ogMCkoTAkG04JDQwjQFCLMCAnMCinMCVnTPqgNLIn5wzevUiOfEY [truncated]) format('woff2');
+        font-weight: 900;
+        font-style: normal;
+      }
+      text { font-family: 'JBM Medium', ui-monospace, monospace; }
+    </style>
+  <clipPath id="typewriterClip" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="18" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="0.20s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="32" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="0.28s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="46" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="0.36s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="60" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="0.44s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="74" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="0.52s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="88" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="0.60s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="102" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="0.68s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="116" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="0.76s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="130" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="0.84s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="144" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="0.92s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="158" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="1.00s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="172" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="1.08s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="186" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="1.16s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="200" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="1.24s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="214" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="1.32s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="228" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="1.40s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="242" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="1.48s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="256" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="1.56s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="270" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="1.64s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="284" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="1.72s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="298" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="1.80s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="312" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="1.88s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="326" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="1.96s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="340" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="2.04s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="354" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="2.12s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="368" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="2.20s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="382" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="2.28s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="396" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="2.36s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="410" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="2.44s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="424" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="2.52s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="438" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="2.60s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="452" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="2.68s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="466" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="2.76s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="480" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="2.84s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="494" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="2.92s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="508" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="3.00s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="522" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="3.08s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="536" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="3.16s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="550" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="3.24s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="564" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="3.32s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="578" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="3.40s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="592" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="3.48s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="606" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="3.56s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="620" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="3.64s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="634" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="3.72s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="648" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="3.80s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="662" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="3.88s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="676" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="3.96s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="690" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="4.04s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="704" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="4.12s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="718" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="4.20s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="732" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="4.28s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="746" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="4.36s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="760" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="4.44s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="774" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="4.52s" dur="0.35s" fill="freeze" />
+      </rect>
+      <rect x="24" y="788" width="0" height="16">
+        <animate attributeName="width" from="0" to="736" begin="4.60s" dur="0.35s" fill="freeze" />
+      </rect>
+    </clipPath>
+    </defs>
+  <g id="zoomGroup" transform="scale(1.05)">
+    <rect x="24" y="18" width="2" height="16" fill="#c9d1d9" opacity="0">
+      <set attributeName="opacity" to="1" begin="0.20s" />
+      <animate attributeName="opacity" values="1;0;1" dur="1s" begin="0.20s" repeatCount="indefinite" />
+    </rect>
+    <text x="20" y="30" fill="#e6dfdf" font-size="14" xml:space="preserve" clip-path="url(#typewriterClip)">
+    <tspan x="22">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;.$&amp;X$ .X+x&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;xx+;.;;+;$X: ;.    ;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;X           :             .$&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;X;.                            +&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;X:                                x&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;X.                                    .&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;.                                     .x&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;.                                       X&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;;                                        .&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;X+                                          x&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;X.                                            $&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$                                            .&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;x                            :;;;:..:.       X&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;;                  ..:;+++;++++++++;;;;:    :&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;X              :;;:;++xxxxxxxxxxxx++;;;;;   &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;x.         ::;++xxxXXXXXXXXXx+;.      .;  ;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$:      ::;;++xx+xx+XXXXx+:     .:::;;;..&amp;XX&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;+   :;:.       .:+xxx+;...    +  :;+;.+++x&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$.  :   .:.   ..:;xxx;::;:::::;+++++:++xx&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$ :::.  ;   ;:::+xx;;;;++xxxxxxx++;+x+&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;++;:;+;::;;++++;;+xXx++++xxXXXXXx++;+xx&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;xx+:++++xxxxxx++;+xXx+++xxXXXXXxx++;++x&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;xxx;++xXXXXXxx+;xXXXxx++xXXXXxxx+++++&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;Xx+++xxXXXXXxx+xXXXx+xxxXxxxxx++++X&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;X+;++xxXXXXXx+:.;+;;;+xxxxxx++++x&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;+++;++xxxxxx+;:+x+;;;++++++++++x&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$$++++++x++;;;x++x++++++++++++&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;;+++++++++;++;;;:::;+++;+;x&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;X;++;++;.:;;;;+x+;;+++;;+;X&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;x;;;;;++;;++++++;+++++;;;X&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$;:;;;+++++;;+xxxxxx+;;;;X&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$;;;:;;++xxxXXXXx+++;;;+;X&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$;+++;::;+++x++++;::;+++;$&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$     ;++x+;;;:::::::::;+++++;  .&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;      :;+xxx++;++++++++;+xx+++;    ;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;X     ;;:;++xxx+++xxxxxx++xxx+++;.     x&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;:    :;;;;+++xxxx++xxxxxx+xxxx+++;::.     X&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;x:       :;;;;;+++xxxxxxxxxxxxxxxx++x+;:;:        .+&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;X:             ++++++xxxxxxxxxxxxxxxxx++xx+;;;              .x&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;x:                  ;+x+++xxxxxxxxxxxxxxxxx+xXxx;;;                   ;X&amp;&amp;&amp;&amp;</tspan>
+    <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;$;                        .+x+xxXXxxxxxxXXXXxXx+xXXXx+                         :X</tspan>
+    <tspan x="24" dy="14">&amp;&amp;$:                             :+xxxxxxxXXXXXXxxXxxxxxx+</tspan>
+    <tspan x="24" dy="14">+                                 ;xxxxxxxxxxXXXxxXxxxxx+</tspan>
+    <tspan x="24" dy="14">                                   :xXxxXXxxxxxxxXXxXXxx</tspan>
+    <tspan x="24" dy="14">                                     +XXXXXxxxxxxXXXXXx</tspan>
+    <tspan x="24" dy="14">                                       xXXXXXXXXXXXXXX</tspan>
+    <tspan x="24" dy="14">                                        +XXXXXXXXXXXx</tspan>
+    <tspan x="24" dy="14">                                         +XXXXXXXXXX</tspan>
+    <tspan x="24" dy="14">                                          XXXXXXXXX</tspan>
+    <tspan x="24" dy="14">                                          .XXXXXXX:</tspan>
+    <tspan x="24" dy="14">                                           +XXXXX:</tspan>
+    <tspan x="24" dy="14">                                           .XXXX+</tspan>
+    <tspan x="24" dy="14">                                            ;$$x</tspan>
+    <tspan x="24" dy="14">                                             XX</tspan>
+  </text>
+  </g>
+  <rect x="12" y="12" width="720" height="856" rx="18" fill="none" stroke="#c9d1d9" stroke-opacity="0.22" stroke-width="2"/>
+</svg>
+
