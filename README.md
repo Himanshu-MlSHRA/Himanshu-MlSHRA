@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./himanshu-ascii.svg" width="590" alt="Himanshu Ratnakar Mishra"/>
+<img src="./himanshu-ascii.svg" width="390" alt="Himanshu Ratnakar Mishra"/>
 
 <img src="./stats.svg" width="620" alt="Contributions in the last year"/>
 
