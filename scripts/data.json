@@ -1,13 +1,36 @@
 {
-  "total_contributions": 144,
-  "active_days": 21,
-  "best_week": 9,
-  "current_streak": 0,
-  "longest_streak": 5,
-  "total_commits": 134,
-  "total_prs": 1,
-  "repos_contributed": 17,
+  "total_contributions": 148,
+  "active_days": 46,
+  "best_week": 21,
+  "current_streak": 1,
+  "longest_streak": 6,
+  "total_commits": 131,
+  "total_prs": 3,
+  "repos_contributed": 14,
   "weekly_contributions": [
+    11,
+    3,
+    0,
+    1,
+    8,
+    6,
+    2,
+    2,
+    6,
+    0,
+    4,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    16,
+    21,
+    0,
+    0,
+    8,
+    3,
     0,
     0,
     0,
@@ -17,87 +40,118 @@
     0,
     0,
     0,
+    5,
+    0,
+    0,
+    3,
+    1,
+    1,
     0,
     0,
     0,
     0,
+    5,
     0,
     0,
     0,
     0,
+    2,
     0,
     0,
+    17,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    18
   ],
-  "month_labels": [],
+  "month_labels": [
+    {
+      "index": 0,
+      "month": "Aug"
+    },
+    {
+      "index": 5,
+      "month": "Sep"
+    },
+    {
+      "index": 9,
+      "month": "Oct"
+    },
+    {
+      "index": 13,
+      "month": "Nov"
+    },
+    {
+      "index": 18,
+      "month": "Dec"
+    },
+    {
+      "index": 22,
+      "month": "Jan"
+    },
+    {
+      "index": 26,
+      "month": "Feb"
+    },
+    {
+      "index": 30,
+      "month": "Mar"
+    },
+    {
+      "index": 35,
+      "month": "Apr"
+    },
+    {
+      "index": 39,
+      "month": "May"
+    },
+    {
+      "index": 44,
+      "month": "Jun"
+    },
+    {
+      "index": 48,
+      "month": "Jul"
+    },
+    {
+      "index": 52,
+      "month": "Aug"
+    }
+  ],
   "languages": [
     {
       "name": "JavaScript",
       "bytes": 1141203,
-      "pct": 53.36,
+      "pct": 52.69,
       "color": "#B7A9DE"
     },
     {
       "name": "TypeScript",
       "bytes": 785493,
-      "pct": 36.73,
+      "pct": 36.27,
       "color": "#78A6C2"
     },
     {
       "name": "HTML",
-      "bytes": 112319,
-      "pct": 5.25,
+      "bytes": 125606,
+      "pct": 5.8,
       "color": "#8FBF9F"
     },
     {
       "name": "CSS",
-      "bytes": 64087,
-      "pct": 3.0,
+      "bytes": 64132,
+      "pct": 2.96,
       "color": "#8B877E"
     },
     {
       "name": "Python",
-      "bytes": 15364,
-      "pct": 0.72,
-      "color": "#78A6C2"
+      "bytes": 19043,
+      "pct": 0.88,
+      "color": "#B7A9DE"
     },
     {
       "name": "C++",
       "bytes": 10119,
       "pct": 0.47,
-      "color": "#E7E3DC"
+      "color": "#78A6C2"
     }
   ]
 }
