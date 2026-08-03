@@ -120,37 +120,37 @@
     {
       "name": "JavaScript",
       "bytes": 1141203,
-      "pct": 51.43,
+      "pct": 51.3,
       "color": "#B7A9DE"
     },
     {
       "name": "TypeScript",
       "bytes": 785493,
-      "pct": 35.4,
+      "pct": 35.31,
       "color": "#78A6C2"
     },
     {
       "name": "HTML",
       "bytes": 125606,
-      "pct": 5.66,
+      "pct": 5.65,
       "color": "#8FBF9F"
     },
     {
       "name": "Python",
-      "bytes": 72288,
-      "pct": 3.26,
+      "bytes": 77822,
+      "pct": 3.5,
       "color": "#8B877E"
     },
     {
       "name": "CSS",
       "bytes": 64132,
-      "pct": 2.89,
+      "pct": 2.88,
       "color": "#B7A9DE"
     },
     {
       "name": "C++",
       "bytes": 10119,
-      "pct": 0.46,
+      "pct": 0.45,
       "color": "#78A6C2"
     }
   ]
