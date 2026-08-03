@@ -16,15 +16,19 @@ def main():
     
     print(f"--- Refreshing Profile Graphics for {username} ---")
     data = fetch_github_data(username, token)
+    
     if data:
+        # Only overwrite data.json when we actually got real data
         with open(data_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2)
+        print("[OK] data.json updated with fresh data")
     elif os.path.exists(data_path):
-        print("Using existing data.json fallback...")
+        # Fetch failed entirely — preserve existing data.json
+        print("Warning: Could not fetch fresh data. Using existing data.json...")
         with open(data_path, "r", encoding="utf-8") as f:
             data = json.load(f)
     else:
-        print("Error: Could not fetch data and no data.json found.")
+        print("Error: Could not fetch data and no existing data.json found.")
         sys.exit(1)
         
     # 1. Generate stats.svg
@@ -45,7 +49,7 @@ def main():
         f.write(langs_svg)
     print("[OK] langs.svg generated")
     
-    # 4. Generate stack-icons.svg
+    # 4. Generate stack-icons.svg (static tech stack — no dynamic data needed)
     try:
         from generate_stack import fetch_svg
         import generate_stack
@@ -53,7 +57,7 @@ def main():
     except Exception as e:
         print(f"Notice running generate_stack: {e}")
 
-    # 5. Generate social SVGs
+    # 5. Generate social SVGs (static social links — no dynamic data needed)
     try:
         import generate_social
         print("[OK] social icons checked")

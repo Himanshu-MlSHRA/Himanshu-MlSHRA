@@ -25,14 +25,16 @@ text {{ font-family: 'JBM Medium', ui-monospace, monospace; }}
 
     languages = data.get("languages", [])
     if not languages:
-        languages = [
-            {"name": "JavaScript", "pct": 53.38, "color": "#B7A9DE"},
-            {"name": "TypeScript", "pct": 36.73, "color": "#78A6C2"},
-            {"name": "HTML", "pct": 5.25, "color": "#8FBF9F"},
-            {"name": "CSS", "pct": 3.03, "color": "#8B877E"},
-            {"name": "Python", "pct": 0.98, "color": "#78A6C2"},
-            {"name": "Java", "pct": 0.61, "color": "#B7A9DE"}
-        ]
+        # Return a minimal SVG with an empty-state message instead of fake data
+        return f'''<svg width="620" height="170" viewBox="0 0 620 170" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+{font_style}
+</style>
+</defs>
+  <text x="310" y="85" text-anchor="middle" font-size="12" fill="#8B877E">Waiting for language data…</text>
+</svg>
+'''
         
     rows_svg = []
     max_bar_width = 464

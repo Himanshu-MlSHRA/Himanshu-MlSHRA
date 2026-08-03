@@ -41,7 +41,7 @@ jobs:
       - name: Pull live data and redraw graphics
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
-        run: python scripts/generate.py ${{ github.repository_owner }}
+        run: python scripts/generate.py Himanshu-MlSHRA
 
       - name: Commit if changed
         run: |
