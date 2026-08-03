@@ -60,10 +60,25 @@ def generate_stats_svg(data):
         y = round(chart_height - (val / max_val * chart_height), 1)
         points.append((x, y, val))
         
-    # Build main line path and area path
+    # Build smooth cubic Bezier line path
+    def get_control_point(p_prev, p_curr, p_next, p_nextnext, tension=0.15):
+        # Calculate tangent vectors
+        d1 = ((p_next[0] - p_prev[0]) * tension, (p_next[1] - p_prev[1]) * tension)
+        d2 = ((p_nextnext[0] - p_curr[0]) * tension, (p_nextnext[1] - p_curr[1]) * tension)
+        return (
+            (round(p_curr[0] + d1[0], 1), round(p_curr[1] + d1[1], 1)),
+            (round(p_next[0] - d2[0], 1), round(p_next[1] - d2[1], 1))
+        )
+
     path_cmds = [f"M {points[0][0]} {points[0][1]}"]
-    for x, y, _ in points[1:]:
-        path_cmds.append(f"L {x} {y}")
+    for i in range(len(points) - 1):
+        p0 = points[max(i - 1, 0)]
+        p1 = points[i]
+        p2 = points[i + 1]
+        p3 = points[min(i + 2, len(points) - 1)]
+        
+        cp1, cp2 = get_control_point(p0, p1, p2, p3)
+        path_cmds.append(f"C {cp1[0]} {cp1[1]}, {cp2[0]} {cp2[1]}, {p2[0]} {p2[1]}")
         
     line_path = " ".join(path_cmds)
     area_path = f"{line_path} L {svg_width} {chart_height} L 0 {chart_height} Z"

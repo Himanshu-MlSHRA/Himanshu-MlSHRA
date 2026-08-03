@@ -18,48 +18,48 @@ text { font-family: 'JBM Medium', ui-monospace, monospace; }
     <text x="0" y="14" font-size="11" fill="#8B877E">JavaScript</text>
     <rect x="96" y="5" width="464" height="7" rx="3.5" fill="#2A2D33"/>
     <rect x="96" y="5" height="7" rx="3.5" fill="#B7A9DE" width="0">
-      <animate attributeName="width" from="0" to="244.5" begin="0.15s" dur="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      <animate attributeName="width" from="0" to="371.6" begin="0.15s" dur="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <text x="620" y="14" text-anchor="end" font-size="11" fill="#8B877E">52.69%</text>
+    <text x="620" y="14" text-anchor="end" font-size="11" fill="#8B877E">80.08%</text>
   </g>
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.11s" dur="0.45s" fill="freeze" />
     <text x="0" y="34" font-size="11" fill="#8B877E">TypeScript</text>
     <rect x="96" y="25" width="464" height="7" rx="3.5" fill="#2A2D33"/>
     <rect x="96" y="25" height="7" rx="3.5" fill="#78A6C2" width="0">
-      <animate attributeName="width" from="0" to="168.3" begin="0.21s" dur="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      <animate attributeName="width" from="0" to="58.9" begin="0.21s" dur="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <text x="620" y="34" text-anchor="end" font-size="11" fill="#8B877E">36.27%</text>
+    <text x="620" y="34" text-anchor="end" font-size="11" fill="#8B877E">12.70%</text>
   </g>
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.17s" dur="0.45s" fill="freeze" />
-    <text x="0" y="54" font-size="11" fill="#8B877E">HTML</text>
+    <text x="0" y="54" font-size="11" fill="#8B877E">Python</text>
     <rect x="96" y="45" width="464" height="7" rx="3.5" fill="#2A2D33"/>
-    <rect x="96" y="45" height="7" rx="3.5" fill="#8FBF9F" width="0">
-      <animate attributeName="width" from="0" to="26.9" begin="0.27s" dur="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    <rect x="96" y="45" height="7" rx="3.5" fill="#78A6C2" width="0">
+      <animate attributeName="width" from="0" to="18.2" begin="0.27s" dur="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <text x="620" y="54" text-anchor="end" font-size="11" fill="#8B877E">5.80%</text>
+    <text x="620" y="54" text-anchor="end" font-size="11" fill="#8B877E">3.93%</text>
   </g>
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.23s" dur="0.45s" fill="freeze" />
     <text x="0" y="74" font-size="11" fill="#8B877E">CSS</text>
     <rect x="96" y="65" width="464" height="7" rx="3.5" fill="#2A2D33"/>
     <rect x="96" y="65" height="7" rx="3.5" fill="#8B877E" width="0">
-      <animate attributeName="width" from="0" to="13.7" begin="0.33s" dur="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      <animate attributeName="width" from="0" to="10.8" begin="0.33s" dur="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <text x="620" y="74" text-anchor="end" font-size="11" fill="#8B877E">2.96%</text>
+    <text x="620" y="74" text-anchor="end" font-size="11" fill="#8B877E">2.33%</text>
   </g>
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.29s" dur="0.45s" fill="freeze" />
-    <text x="0" y="94" font-size="11" fill="#8B877E">Python</text>
+    <text x="0" y="94" font-size="11" fill="#8B877E">C++</text>
     <rect x="96" y="85" width="464" height="7" rx="3.5" fill="#2A2D33"/>
-    <rect x="96" y="85" height="7" rx="3.5" fill="#B7A9DE" width="0">
-      <animate attributeName="width" from="0" to="4.1" begin="0.39s" dur="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    <rect x="96" y="85" height="7" rx="3.5" fill="#E7E3DC" width="0">
+      <animate attributeName="width" from="0" to="3.5" begin="0.39s" dur="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <text x="620" y="94" text-anchor="end" font-size="11" fill="#8B877E">0.88%</text>
+    <text x="620" y="94" text-anchor="end" font-size="11" fill="#8B877E">0.76%</text>
   </g>
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.35s" dur="0.45s" fill="freeze" />
-    <text x="0" y="114" font-size="11" fill="#8B877E">C++</text>
+    <text x="0" y="114" font-size="11" fill="#8B877E">HTML</text>
     <rect x="96" y="105" width="464" height="7" rx="3.5" fill="#2A2D33"/>
-    <rect x="96" y="105" height="7" rx="3.5" fill="#78A6C2" width="0">
-      <animate attributeName="width" from="0" to="2.2" begin="0.45s" dur="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    <rect x="96" y="105" height="7" rx="3.5" fill="#8FBF9F" width="0">
+      <animate attributeName="width" from="0" to="0.9" begin="0.45s" dur="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <text x="620" y="114" text-anchor="end" font-size="11" fill="#8B877E">0.47%</text>
+    <text x="620" y="114" text-anchor="end" font-size="11" fill="#8B877E">0.19%</text>
   </g>
 </svg>
