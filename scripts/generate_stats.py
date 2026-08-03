@@ -65,12 +65,26 @@ def generate_stats_svg(data):
         points.append((x, y, val))
         
     # Build smooth cubic Bezier line path
-    def get_control_point(p_prev, p_curr, p_next, p_nextnext, tension=0.15):
+    def get_control_point(p_prev, p_curr, p_next, p_nextnext, tension=0.2):
         d1 = ((p_next[0] - p_prev[0]) * tension, (p_next[1] - p_prev[1]) * tension)
         d2 = ((p_nextnext[0] - p_curr[0]) * tension, (p_nextnext[1] - p_curr[1]) * tension)
+        
+        cp1_x = p_curr[0] + d1[0]
+        cp1_y = p_curr[1] + d1[1]
+        
+        cp2_x = p_next[0] - d2[0]
+        cp2_y = p_next[1] - d2[1]
+        
+        # Clamp Y coordinates to prevent overshooting local min/max (monotone behavior)
+        min_y = min(p_curr[1], p_next[1])
+        max_y = max(p_curr[1], p_next[1])
+        
+        cp1_y = max(min_y, min(max_y, cp1_y))
+        cp2_y = max(min_y, min(max_y, cp2_y))
+        
         return (
-            (round(p_curr[0] + d1[0], 1), round(p_curr[1] + d1[1], 1)),
-            (round(p_next[0] - d2[0], 1), round(p_next[1] - d2[1], 1))
+            (round(cp1_x, 1), round(cp1_y, 1)),
+            (round(cp2_x, 1), round(cp2_y, 1))
         )
 
     path_cmds = [f"M {points[0][0]} {points[0][1]}"]
