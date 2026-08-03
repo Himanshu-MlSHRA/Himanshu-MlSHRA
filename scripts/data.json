@@ -1,0 +1,103 @@
+{
+  "total_contributions": 144,
+  "active_days": 21,
+  "best_week": 9,
+  "current_streak": 0,
+  "longest_streak": 5,
+  "total_commits": 134,
+  "total_prs": 1,
+  "repos_contributed": 17,
+  "weekly_contributions": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "month_labels": [],
+  "languages": [
+    {
+      "name": "JavaScript",
+      "bytes": 1141203,
+      "pct": 53.36,
+      "color": "#B7A9DE"
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 785493,
+      "pct": 36.73,
+      "color": "#78A6C2"
+    },
+    {
+      "name": "HTML",
+      "bytes": 112319,
+      "pct": 5.25,
+      "color": "#8FBF9F"
+    },
+    {
+      "name": "CSS",
+      "bytes": 64087,
+      "pct": 3.0,
+      "color": "#8B877E"
+    },
+    {
+      "name": "Python",
+      "bytes": 15364,
+      "pct": 0.72,
+      "color": "#78A6C2"
+    },
+    {
+      "name": "C++",
+      "bytes": 10119,
+      "pct": 0.47,
+      "color": "#E7E3DC"
+    }
+  ]
+}

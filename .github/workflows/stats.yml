@@ -1,0 +1,52 @@
+name: Refresh profile stats
+
+# Redraws every graphic on this profile from live GitHub data, once a day,
+# and commits only if something actually changed.
+#
+# Setup (one-time):
+#   1. Create a classic Personal Access Token with the `read:user` scope —
+#      the contribution calendar isn't reachable with the default
+#      GITHUB_TOKEN, even for your own profile.
+#      https://github.com/settings/tokens
+#   2. Add it as a repository secret named GH_PAT:
+#      Settings -> Secrets and variables -> Actions -> New repository secret
+#   3. That's it — the workflow below runs on its own from here on. You can
+#      also trigger it by hand from the Actions tab (workflow_dispatch).
+
+on:
+  schedule:
+    - cron: "17 2 * * *"   # ~once a day; stagger the minute to be a light citizen
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Pull live data and redraw graphics
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: python scripts/generate.py ${{ github.repository_owner }}
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- '*.svg' scripts/data.json
+          git diff --cached --quiet || git commit -m "chore: refresh profile stats"
+          git push
