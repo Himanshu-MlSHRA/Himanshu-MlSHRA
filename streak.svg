@@ -21,11 +21,11 @@ text { font-family: 'JBM Medium', ui-monospace, monospace; }
 </defs>
 
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.05s" dur="0.5s" fill="freeze" />
-    <text x="0" y="34" class="b" font-size="30" fill="#E7E3DC">2</text>
+    <text x="0" y="34" class="b" font-size="30" fill="#E7E3DC">0</text>
     <text x="0" y="54" font-size="11" fill="#8B877E">current streak</text>
   </g>
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.5s" fill="freeze" />
-    <text x="310.0" y="34" class="b" font-size="30" fill="#B7A9DE">6</text>
+    <text x="310.0" y="34" class="b" font-size="30" fill="#B7A9DE">5</text>
     <text x="310.0" y="54" font-size="11" fill="#8B877E">longest streak &#183; days</text>
   </g>
   <line x1="0" y1="72" x2="620" y2="72" stroke="#2A2D33" stroke-width="1"

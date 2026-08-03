@@ -19,78 +19,81 @@
     
 </style>
 <linearGradient id="areaFill" x1="0" y1="0" x2="0" y2="1">
-  <stop offset="0%" stop-color="#B7A9DE" stop-opacity="0.25"/>
-  <stop offset="100%" stop-color="#B7A9DE" stop-opacity="0.02"/>
+  <stop offset="0%" stop-color="#B7A9DE" stop-opacity="0.35"/>
+  <stop offset="100%" stop-color="#B7A9DE" stop-opacity="0.0"/>
 </linearGradient>
 </defs>
 
-  <!-- Header stats -->
-  <g transform="translate(0,4)">
+  <!-- Header Layout -->
+  <!-- Left Side: Total Contributions -->
+  <g transform="translate(20, 10)">
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.05s" dur="0.6s" fill="freeze" />
-      <text x="0" y="40" class="b" font-size="42" fill="#E7E3DC">149</text>
-      <text x="0" y="60" font-size="11" fill="#8B877E" letter-spacing="0.5">contributions in the last year</text>
-    </g>
-
-    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.6s" fill="freeze" />
-      <text x="620" y="24" text-anchor="end" class="b" font-size="20" fill="#B7A9DE">47</text>
-      <text x="620" y="40" text-anchor="end" font-size="10" fill="#8B877E">active days</text>
-      <text x="620" y="60" text-anchor="end" class="b" font-size="20" fill="#78A6C2">21</text>
-      <text x="620" y="76" text-anchor="end" font-size="10" fill="#8B877E">best week</text>
+      <text x="0" y="45" class="b" font-size="44" fill="#E7E3DC" letter-spacing="-0.5">144</text>
+      <text x="2" y="65" font-size="11" fill="#8B877E" letter-spacing="0.2">contributions in the last year</text>
     </g>
   </g>
 
-  <!-- Chart area: y=95 to y=205 (110px tall), x=0 to x=620 -->
-  <g transform="translate(0, 95)">
+  <!-- Right Side: Secondary Metrics as Dashboard Cards -->
+  <g opacity="0" transform="translate(0, 10)"><animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.6s" fill="freeze" />
+    <g transform="translate(420, 30)">
+      <text x="35" y="0" text-anchor="middle" class="b" font-size="24" fill="#B7A9DE">21</text>
+      <text x="35" y="16" text-anchor="middle" font-size="9" fill="#8B877E" text-transform="uppercase" letter-spacing="1">Active Days</text>
+    </g>
+    
+    <g transform="translate(520, 30)">
+      <text x="35" y="0" text-anchor="middle" class="b" font-size="24" fill="#78A6C2">9</text>
+      <text x="35" y="16" text-anchor="middle" font-size="9" fill="#8B877E" text-transform="uppercase" letter-spacing="1">Best Week</text>
+    </g>
+  </g>
+
+  <!-- Chart area -->
+  <g transform="translate(0, 100)">
     <!-- Horizontal grid lines -->
     <g opacity="0"><animate attributeName="opacity" from="0" to="0.3" begin="0.2s" dur="0.5s" fill="freeze" />
-      <line x1="0" y1="0" x2="620" y2="0" stroke="#2A2D33" stroke-width="0.5"/>
-      <line x1="0" y1="27.5" x2="620" y2="27.5" stroke="#2A2D33" stroke-width="0.5" stroke-dasharray="3 4"/>
-      <line x1="0" y1="55" x2="620" y2="55" stroke="#2A2D33" stroke-width="0.5" stroke-dasharray="3 4"/>
-      <line x1="0" y1="82.5" x2="620" y2="82.5" stroke="#2A2D33" stroke-width="0.5" stroke-dasharray="3 4"/>
-      <line x1="0" y1="110" x2="620" y2="110" stroke="#2A2D33" stroke-width="0.5"/>
+      <line x1="20" y1="0" x2="600" y2="0" stroke="#2A2D33" stroke-width="0.5" stroke-dasharray="2 4"/>
+      <line x1="20" y1="50.0" x2="600" y2="50.0" stroke="#2A2D33" stroke-width="0.5" stroke-dasharray="2 4"/>
+      <line x1="20" y1="100" x2="600" y2="100" stroke="#2A2D33" stroke-width="1"/>
     </g>
 
     <!-- Area fill under line -->
-    <path d="M 0.0 94.3 C 1.8 96.7, 8.6 108.4, 12.2 110.0 C 15.8 111.6, 20.7 111.1, 24.3 104.8 C 27.9 98.5, 32.9 72.0, 36.5 68.1 C 40.1 64.2, 45.0 73.9, 48.6 78.6 C 52.2 83.3, 57.2 96.4, 60.8 99.5 C 64.4 102.6, 69.3 102.6, 72.9 99.5 C 76.5 96.4, 81.4 77.0, 85.1 78.6 C 88.8 80.2, 93.7 108.4, 97.3 110.0 C 100.9 111.6, 105.8 89.0, 109.4 89.0 C 113.0 89.0, 118.0 110.8, 121.6 110.0 C 125.2 109.2, 130.1 83.8, 133.7 83.8 C 137.3 83.8, 142.3 106.1, 145.9 110.0 C 149.5 113.9, 154.4 110.0, 158.0 110.0 C 161.6 110.0, 166.5 110.0, 170.2 110.0 C 173.9 110.0, 178.8 122.6, 182.4 110.0 C 186.0 97.4, 190.9 42.7, 194.5 26.2 C 198.1 9.7, 203.1 -12.6, 206.7 0.0 C 210.3 12.6, 215.2 93.5, 218.8 110.0 C 222.4 126.5, 227.4 116.3, 231.0 110.0 C 234.6 103.7, 239.5 70.5, 243.1 68.1 C 246.7 65.7, 251.6 88.0, 255.3 94.3 C 259.0 100.6, 263.9 107.6, 267.5 110.0 C 271.1 112.4, 276.0 110.0, 279.6 110.0 C 283.2 110.0, 288.2 110.0, 291.8 110.0 C 295.4 110.0, 300.3 110.0, 303.9 110.0 C 307.5 110.0, 312.5 110.0, 316.1 110.0 C 319.7 110.0, 324.6 110.0, 328.2 110.0 C 331.8 110.0, 336.8 110.0, 340.4 110.0 C 344.0 110.0, 348.9 110.0, 352.5 110.0 C 356.1 110.0, 361.0 113.9, 364.7 110.0 C 368.4 106.1, 373.3 83.8, 376.9 83.8 C 380.5 83.8, 385.4 106.1, 389.0 110.0 C 392.6 113.9, 397.6 112.4, 401.2 110.0 C 404.8 107.6, 409.7 95.1, 413.3 94.3 C 416.9 93.5, 421.9 103.2, 425.5 104.8 C 429.1 106.4, 434.0 104.0, 437.6 104.8 C 441.2 105.6, 446.1 109.2, 449.8 110.0 C 453.5 110.8, 458.4 110.0, 462.0 110.0 C 465.6 110.0, 470.5 110.0, 474.1 110.0 C 477.7 110.0, 482.7 113.9, 486.3 110.0 C 489.9 106.1, 494.8 83.8, 498.4 83.8 C 502.0 83.8, 507.0 106.1, 510.6 110.0 C 514.2 113.9, 519.1 110.0, 522.7 110.0 C 526.3 110.0, 531.2 110.0, 534.9 110.0 C 538.6 110.0, 543.5 111.6, 547.1 110.0 C 550.7 108.4, 555.6 99.5, 559.2 99.5 C 562.8 99.5, 567.8 108.4, 571.4 110.0 C 575.0 111.6, 579.9 123.3, 583.5 110.0 C 587.1 96.7, 592.1 21.0, 595.7 21.0 C 599.3 21.0, 604.2 111.6, 607.8 110.0 C 611.4 108.4, 618.2 25.4, 620.0 10.5 L 620 110 L 0 110 Z" fill="url(#areaFill)" opacity="0">
+    <path d="M 20.0 100.0 C 21.7 100.0, 28.0 100.0, 31.4 100.0 C 34.8 100.0, 39.3 100.0, 42.7 100.0 C 46.1 100.0, 50.7 100.0, 54.1 100.0 C 57.5 100.0, 62.1 100.0, 65.5 100.0 C 68.9 100.0, 73.5 100.0, 76.9 100.0 C 80.3 100.0, 84.8 100.0, 88.2 100.0 C 91.6 100.0, 96.2 100.0, 99.6 100.0 C 103.0 100.0, 107.6 100.0, 111.0 100.0 C 114.4 100.0, 119.0 100.0, 122.4 100.0 C 125.8 100.0, 130.3 100.0, 133.7 100.0 C 137.1 100.0, 141.7 100.0, 145.1 100.0 C 148.5 100.0, 153.1 100.0, 156.5 100.0 C 159.9 100.0, 164.4 100.0, 167.8 100.0 C 171.2 100.0, 175.8 100.0, 179.2 100.0 C 182.6 100.0, 187.2 100.0, 190.6 100.0 C 194.0 100.0, 198.6 100.0, 202.0 100.0 C 205.4 100.0, 209.9 100.0, 213.3 100.0 C 216.7 100.0, 221.3 100.0, 224.7 100.0 C 228.1 100.0, 232.7 100.0, 236.1 100.0 C 239.5 100.0, 244.1 100.0, 247.5 100.0 C 250.9 100.0, 255.4 100.0, 258.8 100.0 C 262.2 100.0, 266.8 100.0, 270.2 100.0 C 273.6 100.0, 278.2 100.0, 281.6 100.0 C 285.0 100.0, 289.5 100.0, 292.9 100.0 C 296.3 100.0, 300.9 100.0, 304.3 100.0 C 307.7 100.0, 312.3 100.0, 315.7 100.0 C 319.1 100.0, 323.7 100.0, 327.1 100.0 C 330.5 100.0, 335.0 100.0, 338.4 100.0 C 341.8 100.0, 346.4 100.0, 349.8 100.0 C 353.2 100.0, 357.8 100.0, 361.2 100.0 C 364.6 100.0, 369.1 100.0, 372.5 100.0 C 375.9 100.0, 380.5 100.0, 383.9 100.0 C 387.3 100.0, 391.9 100.0, 395.3 100.0 C 398.7 100.0, 403.3 100.0, 406.7 100.0 C 410.1 100.0, 414.6 100.0, 418.0 100.0 C 421.4 100.0, 426.0 100.0, 429.4 100.0 C 432.8 100.0, 437.4 100.0, 440.8 100.0 C 444.2 100.0, 448.8 100.0, 452.2 100.0 C 455.6 100.0, 460.1 100.0, 463.5 100.0 C 466.9 100.0, 471.5 100.0, 474.9 100.0 C 478.3 100.0, 482.9 100.0, 486.3 100.0 C 489.7 100.0, 494.2 100.0, 497.6 100.0 C 501.0 100.0, 505.6 100.0, 509.0 100.0 C 512.4 100.0, 517.0 100.0, 520.4 100.0 C 523.8 100.0, 528.4 100.0, 531.8 100.0 C 535.2 100.0, 539.7 100.0, 543.1 100.0 C 546.5 100.0, 551.1 100.0, 554.5 100.0 C 557.9 100.0, 562.5 100.0, 565.9 100.0 C 569.3 100.0, 573.9 100.0, 577.3 100.0 C 580.7 100.0, 585.2 100.0, 588.6 100.0 C 592.0 100.0, 598.3 100.0, 600.0 100.0 L 600 100 L 20 100 Z" fill="url(#areaFill)" opacity="0">
       <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.8s" fill="freeze"/>
     </path>
 
     <!-- Main line -->
-    <path d="M 0.0 94.3 C 1.8 96.7, 8.6 108.4, 12.2 110.0 C 15.8 111.6, 20.7 111.1, 24.3 104.8 C 27.9 98.5, 32.9 72.0, 36.5 68.1 C 40.1 64.2, 45.0 73.9, 48.6 78.6 C 52.2 83.3, 57.2 96.4, 60.8 99.5 C 64.4 102.6, 69.3 102.6, 72.9 99.5 C 76.5 96.4, 81.4 77.0, 85.1 78.6 C 88.8 80.2, 93.7 108.4, 97.3 110.0 C 100.9 111.6, 105.8 89.0, 109.4 89.0 C 113.0 89.0, 118.0 110.8, 121.6 110.0 C 125.2 109.2, 130.1 83.8, 133.7 83.8 C 137.3 83.8, 142.3 106.1, 145.9 110.0 C 149.5 113.9, 154.4 110.0, 158.0 110.0 C 161.6 110.0, 166.5 110.0, 170.2 110.0 C 173.9 110.0, 178.8 122.6, 182.4 110.0 C 186.0 97.4, 190.9 42.7, 194.5 26.2 C 198.1 9.7, 203.1 -12.6, 206.7 0.0 C 210.3 12.6, 215.2 93.5, 218.8 110.0 C 222.4 126.5, 227.4 116.3, 231.0 110.0 C 234.6 103.7, 239.5 70.5, 243.1 68.1 C 246.7 65.7, 251.6 88.0, 255.3 94.3 C 259.0 100.6, 263.9 107.6, 267.5 110.0 C 271.1 112.4, 276.0 110.0, 279.6 110.0 C 283.2 110.0, 288.2 110.0, 291.8 110.0 C 295.4 110.0, 300.3 110.0, 303.9 110.0 C 307.5 110.0, 312.5 110.0, 316.1 110.0 C 319.7 110.0, 324.6 110.0, 328.2 110.0 C 331.8 110.0, 336.8 110.0, 340.4 110.0 C 344.0 110.0, 348.9 110.0, 352.5 110.0 C 356.1 110.0, 361.0 113.9, 364.7 110.0 C 368.4 106.1, 373.3 83.8, 376.9 83.8 C 380.5 83.8, 385.4 106.1, 389.0 110.0 C 392.6 113.9, 397.6 112.4, 401.2 110.0 C 404.8 107.6, 409.7 95.1, 413.3 94.3 C 416.9 93.5, 421.9 103.2, 425.5 104.8 C 429.1 106.4, 434.0 104.0, 437.6 104.8 C 441.2 105.6, 446.1 109.2, 449.8 110.0 C 453.5 110.8, 458.4 110.0, 462.0 110.0 C 465.6 110.0, 470.5 110.0, 474.1 110.0 C 477.7 110.0, 482.7 113.9, 486.3 110.0 C 489.9 106.1, 494.8 83.8, 498.4 83.8 C 502.0 83.8, 507.0 106.1, 510.6 110.0 C 514.2 113.9, 519.1 110.0, 522.7 110.0 C 526.3 110.0, 531.2 110.0, 534.9 110.0 C 538.6 110.0, 543.5 111.6, 547.1 110.0 C 550.7 108.4, 555.6 99.5, 559.2 99.5 C 562.8 99.5, 567.8 108.4, 571.4 110.0 C 575.0 111.6, 579.9 123.3, 583.5 110.0 C 587.1 96.7, 592.1 21.0, 595.7 21.0 C 599.3 21.0, 604.2 111.6, 607.8 110.0 C 611.4 108.4, 618.2 25.4, 620.0 10.5" fill="none" stroke="#B7A9DE" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="900" stroke-dashoffset="900">
-      <animate attributeName="stroke-dashoffset" from="900" to="0" begin="0.3s" dur="1.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    <path d="M 20.0 100.0 C 21.7 100.0, 28.0 100.0, 31.4 100.0 C 34.8 100.0, 39.3 100.0, 42.7 100.0 C 46.1 100.0, 50.7 100.0, 54.1 100.0 C 57.5 100.0, 62.1 100.0, 65.5 100.0 C 68.9 100.0, 73.5 100.0, 76.9 100.0 C 80.3 100.0, 84.8 100.0, 88.2 100.0 C 91.6 100.0, 96.2 100.0, 99.6 100.0 C 103.0 100.0, 107.6 100.0, 111.0 100.0 C 114.4 100.0, 119.0 100.0, 122.4 100.0 C 125.8 100.0, 130.3 100.0, 133.7 100.0 C 137.1 100.0, 141.7 100.0, 145.1 100.0 C 148.5 100.0, 153.1 100.0, 156.5 100.0 C 159.9 100.0, 164.4 100.0, 167.8 100.0 C 171.2 100.0, 175.8 100.0, 179.2 100.0 C 182.6 100.0, 187.2 100.0, 190.6 100.0 C 194.0 100.0, 198.6 100.0, 202.0 100.0 C 205.4 100.0, 209.9 100.0, 213.3 100.0 C 216.7 100.0, 221.3 100.0, 224.7 100.0 C 228.1 100.0, 232.7 100.0, 236.1 100.0 C 239.5 100.0, 244.1 100.0, 247.5 100.0 C 250.9 100.0, 255.4 100.0, 258.8 100.0 C 262.2 100.0, 266.8 100.0, 270.2 100.0 C 273.6 100.0, 278.2 100.0, 281.6 100.0 C 285.0 100.0, 289.5 100.0, 292.9 100.0 C 296.3 100.0, 300.9 100.0, 304.3 100.0 C 307.7 100.0, 312.3 100.0, 315.7 100.0 C 319.1 100.0, 323.7 100.0, 327.1 100.0 C 330.5 100.0, 335.0 100.0, 338.4 100.0 C 341.8 100.0, 346.4 100.0, 349.8 100.0 C 353.2 100.0, 357.8 100.0, 361.2 100.0 C 364.6 100.0, 369.1 100.0, 372.5 100.0 C 375.9 100.0, 380.5 100.0, 383.9 100.0 C 387.3 100.0, 391.9 100.0, 395.3 100.0 C 398.7 100.0, 403.3 100.0, 406.7 100.0 C 410.1 100.0, 414.6 100.0, 418.0 100.0 C 421.4 100.0, 426.0 100.0, 429.4 100.0 C 432.8 100.0, 437.4 100.0, 440.8 100.0 C 444.2 100.0, 448.8 100.0, 452.2 100.0 C 455.6 100.0, 460.1 100.0, 463.5 100.0 C 466.9 100.0, 471.5 100.0, 474.9 100.0 C 478.3 100.0, 482.9 100.0, 486.3 100.0 C 489.7 100.0, 494.2 100.0, 497.6 100.0 C 501.0 100.0, 505.6 100.0, 509.0 100.0 C 512.4 100.0, 517.0 100.0, 520.4 100.0 C 523.8 100.0, 528.4 100.0, 531.8 100.0 C 535.2 100.0, 539.7 100.0, 543.1 100.0 C 546.5 100.0, 551.1 100.0, 554.5 100.0 C 557.9 100.0, 562.5 100.0, 565.9 100.0 C 569.3 100.0, 573.9 100.0, 577.3 100.0 C 580.7 100.0, 585.2 100.0, 588.6 100.0 C 592.0 100.0, 598.3 100.0, 600.0 100.0" fill="none" stroke="#B7A9DE" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1000" stroke-dashoffset="1000">
+      <animate attributeName="stroke-dashoffset" from="1000" to="0" begin="0.3s" dur="1.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </path>
 
-    <!-- Peak dots with commit counts -->
+    <!-- Peak dots -->
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.4s" fill="freeze" />
-      <circle cx="206.7" cy="0.0" r="3.5" fill="#B7A9DE" opacity="0.9"/>
-      <text x="206.7" y="-8.0" text-anchor="middle" font-size="9" fill="#B7A9DE" class="b">21</text>
-      <circle cx="620.0" cy="10.5" r="3.5" fill="#B7A9DE" opacity="0.9"/>
-      <text x="620.0" y="2.5" text-anchor="middle" font-size="9" fill="#B7A9DE" class="b">19</text>
     </g>
 
-    <!-- Month labels along x-axis -->
+    <!-- Month labels -->
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.5s" fill="freeze" />
-      <text x="0.0" y="126" font-size="9" fill="#555">Aug</text>
-      <text x="60.8" y="126" font-size="9" fill="#555">Sep</text>
-      <text x="109.4" y="126" font-size="9" fill="#555">Oct</text>
-      <text x="158.0" y="126" font-size="9" fill="#555">Nov</text>
-      <text x="218.8" y="126" font-size="9" fill="#555">Dec</text>
-      <text x="267.5" y="126" font-size="9" fill="#555">Jan</text>
-      <text x="316.1" y="126" font-size="9" fill="#555">Feb</text>
-      <text x="364.7" y="126" font-size="9" fill="#555">Mar</text>
-      <text x="425.5" y="126" font-size="9" fill="#555">Apr</text>
-      <text x="474.1" y="126" font-size="9" fill="#555">May</text>
-      <text x="534.9" y="126" font-size="9" fill="#555">Jun</text>
-      <text x="583.5" y="126" font-size="9" fill="#555">Jul</text>
+      <text x="20.0" y="120" text-anchor="middle" font-size="9" fill="#555">Aug</text>
+      <text x="65.5" y="120" text-anchor="middle" font-size="9" fill="#555">Sep</text>
+      <text x="111.0" y="120" text-anchor="middle" font-size="9" fill="#555">Oct</text>
+      <text x="156.5" y="120" text-anchor="middle" font-size="9" fill="#555">Nov</text>
+      <text x="213.3" y="120" text-anchor="middle" font-size="9" fill="#555">Dec</text>
+      <text x="258.8" y="120" text-anchor="middle" font-size="9" fill="#555">Jan</text>
+      <text x="304.3" y="120" text-anchor="middle" font-size="9" fill="#555">Feb</text>
+      <text x="361.2" y="120" text-anchor="middle" font-size="9" fill="#555">Mar</text>
+      <text x="406.7" y="120" text-anchor="middle" font-size="9" fill="#555">Apr</text>
+      <text x="452.2" y="120" text-anchor="middle" font-size="9" fill="#555">May</text>
+      <text x="509.0" y="120" text-anchor="middle" font-size="9" fill="#555">Jun</text>
+      <text x="554.5" y="120" text-anchor="middle" font-size="9" fill="#555">Jul</text>
     </g>
   </g>
 
-  <!-- Footer stats -->
-  <g transform="translate(0,242)" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.5s" fill="freeze" />
-    <text x="0" y="0" font-size="11" fill="#8B877E">132 commits</text>
-    <text x="120" y="0" font-size="11" fill="#8B877E">·</text>
-    <text x="140" y="0" font-size="11" fill="#8B877E">3 pr opened</text>
-    <text x="260" y="0" font-size="11" fill="#8B877E">·</text>
-    <text x="280" y="0" font-size="11" fill="#8B877E">14 repo contributed to</text>
+  <!-- Footer Layout -->
+  <g transform="translate(310, 245)" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.5s" fill="freeze" />
+    <text text-anchor="middle" font-size="10" letter-spacing="0.5">
+      <tspan class="b" fill="#B7A9DE">134</tspan> <tspan fill="#8B877E">COMMITS</tspan>
+      <tspan fill="#2A2D33">   •   </tspan>
+      <tspan class="b" fill="#78A6C2">1</tspan> <tspan fill="#8B877E">PULL REQUESTS</tspan>
+      <tspan fill="#2A2D33">   •   </tspan>
+      <tspan class="b" fill="#8FBF9F">1</tspan> <tspan fill="#8B877E">REPOSITORIES</tspan>
+    </text>
   </g>
 </svg>

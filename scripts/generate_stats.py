@@ -48,21 +48,24 @@ def generate_stats_svg(data):
         weekly = [0] * (52 - len(weekly)) + weekly
         
     max_val = max(weekly) if max(weekly) > 0 else 1
-    svg_width = 620
-    chart_height = 110 # y from 0 to 110
+    
+    # Redesigned Dimensions & Spacing
+    chart_width = 580
+    chart_height = 100
+    start_x = 20
+    
     num_points = len(weekly)
-    dx = svg_width / max((num_points - 1), 1)
+    dx = chart_width / max((num_points - 1), 1)
     
     # Calculate chart points
     points = []
     for i, val in enumerate(weekly):
-        x = round(i * dx, 1)
+        x = round(start_x + i * dx, 1)
         y = round(chart_height - (val / max_val * chart_height), 1)
         points.append((x, y, val))
         
     # Build smooth cubic Bezier line path
     def get_control_point(p_prev, p_curr, p_next, p_nextnext, tension=0.15):
-        # Calculate tangent vectors
         d1 = ((p_next[0] - p_prev[0]) * tension, (p_next[1] - p_prev[1]) * tension)
         d2 = ((p_nextnext[0] - p_curr[0]) * tension, (p_nextnext[1] - p_curr[1]) * tension)
         return (
@@ -81,7 +84,7 @@ def generate_stats_svg(data):
         path_cmds.append(f"C {cp1[0]} {cp1[1]}, {cp2[0]} {cp2[1]}, {p2[0]} {p2[1]}")
         
     line_path = " ".join(path_cmds)
-    area_path = f"{line_path} L {svg_width} {chart_height} L 0 {chart_height} Z"
+    area_path = f"{line_path} L {start_x + chart_width} {chart_height} L {start_x} {chart_height} Z"
     
     # Peak dots (find top 2 peak points)
     sorted_points = sorted(enumerate(points), key=lambda item: item[1][2], reverse=True)
@@ -91,28 +94,26 @@ def generate_stats_svg(data):
     
     for idx, (x, y, val) in sorted_points:
         if val > 0 and peaks_added < 2:
-            # ensure peaks aren't too close together
             too_close = any(abs(x - prev_x) < 50 for prev_x in seen_x)
             if not too_close:
                 seen_x.add(x)
                 peaks_added += 1
                 peak_dots_svg += f'''
-      <circle cx="{x}" cy="{y}" r="3.5" fill="#B7A9DE" opacity="0.9"/>
+      <circle cx="{x}" cy="{y}" r="3.5" fill="#1A1C23" stroke="#B7A9DE" stroke-width="1.5" opacity="0.9"/>
       <text x="{x}" y="{y - 8}" text-anchor="middle" font-size="9" fill="#B7A9DE" class="b">{val}</text>'''
 
     # Month labels
     months = data.get("month_labels", [])
     if not months:
-        # Default 12 month labels if empty
         m_names = ["Aug", "Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"]
         months = [{"index": int(i * 4.33), "month": m_names[i]} for i in range(12)]
         
     month_texts_svg = ""
     for m in months:
         idx = m.get("index", 0)
-        x_pos = round(idx * dx, 1)
-        if x_pos < svg_width - 25:
-            month_texts_svg += f'\n      <text x="{x_pos}" y="126" font-size="9" fill="#555">{m["month"]}</text>'
+        x_pos = round(start_x + idx * dx, 1)
+        if x_pos < start_x + chart_width - 15:
+            month_texts_svg += f'\n      <text x="{x_pos}" y="120" text-anchor="middle" font-size="9" fill="#555">{m["month"]}</text>'
 
     svg_content = f'''<svg width="620" height="260" viewBox="0 0 620 260" xmlns="http://www.w3.org/2000/svg">
 <defs>
@@ -120,35 +121,40 @@ def generate_stats_svg(data):
 {font_style}
 </style>
 <linearGradient id="areaFill" x1="0" y1="0" x2="0" y2="1">
-  <stop offset="0%" stop-color="#B7A9DE" stop-opacity="0.25"/>
-  <stop offset="100%" stop-color="#B7A9DE" stop-opacity="0.02"/>
+  <stop offset="0%" stop-color="#B7A9DE" stop-opacity="0.35"/>
+  <stop offset="100%" stop-color="#B7A9DE" stop-opacity="0.0"/>
 </linearGradient>
 </defs>
 
-  <!-- Header stats -->
-  <g transform="translate(0,4)">
+  <!-- Header Layout -->
+  <!-- Left Side: Total Contributions -->
+  <g transform="translate(20, 10)">
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.05s" dur="0.6s" fill="freeze" />
-      <text x="0" y="40" class="b" font-size="42" fill="#E7E3DC">{total_contribs}</text>
-      <text x="0" y="60" font-size="11" fill="#8B877E" letter-spacing="0.5">contributions in the last year</text>
-    </g>
-
-    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.6s" fill="freeze" />
-      <text x="620" y="24" text-anchor="end" class="b" font-size="20" fill="#B7A9DE">{active_days}</text>
-      <text x="620" y="40" text-anchor="end" font-size="10" fill="#8B877E">active days</text>
-      <text x="620" y="60" text-anchor="end" class="b" font-size="20" fill="#78A6C2">{best_week}</text>
-      <text x="620" y="76" text-anchor="end" font-size="10" fill="#8B877E">best week</text>
+      <text x="0" y="45" class="b" font-size="44" fill="#E7E3DC" letter-spacing="-0.5">{total_contribs}</text>
+      <text x="2" y="65" font-size="11" fill="#8B877E" letter-spacing="0.2">contributions in the last year</text>
     </g>
   </g>
 
-  <!-- Chart area: y=95 to y=205 (110px tall), x=0 to x=620 -->
-  <g transform="translate(0, 95)">
+  <!-- Right Side: Secondary Metrics as Dashboard Cards -->
+  <g opacity="0" transform="translate(0, 10)"><animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.6s" fill="freeze" />
+    <g transform="translate(420, 30)">
+      <text x="35" y="0" text-anchor="middle" class="b" font-size="24" fill="#B7A9DE">{active_days}</text>
+      <text x="35" y="16" text-anchor="middle" font-size="9" fill="#8B877E" text-transform="uppercase" letter-spacing="1">Active Days</text>
+    </g>
+    
+    <g transform="translate(520, 30)">
+      <text x="35" y="0" text-anchor="middle" class="b" font-size="24" fill="#78A6C2">{best_week}</text>
+      <text x="35" y="16" text-anchor="middle" font-size="9" fill="#8B877E" text-transform="uppercase" letter-spacing="1">Best Week</text>
+    </g>
+  </g>
+
+  <!-- Chart area -->
+  <g transform="translate(0, 100)">
     <!-- Horizontal grid lines -->
     <g opacity="0"><animate attributeName="opacity" from="0" to="0.3" begin="0.2s" dur="0.5s" fill="freeze" />
-      <line x1="0" y1="0" x2="620" y2="0" stroke="#2A2D33" stroke-width="0.5"/>
-      <line x1="0" y1="27.5" x2="620" y2="27.5" stroke="#2A2D33" stroke-width="0.5" stroke-dasharray="3 4"/>
-      <line x1="0" y1="55" x2="620" y2="55" stroke="#2A2D33" stroke-width="0.5" stroke-dasharray="3 4"/>
-      <line x1="0" y1="82.5" x2="620" y2="82.5" stroke="#2A2D33" stroke-width="0.5" stroke-dasharray="3 4"/>
-      <line x1="0" y1="110" x2="620" y2="110" stroke="#2A2D33" stroke-width="0.5"/>
+      <line x1="{start_x}" y1="0" x2="{start_x + chart_width}" y2="0" stroke="#2A2D33" stroke-width="0.5" stroke-dasharray="2 4"/>
+      <line x1="{start_x}" y1="{chart_height / 2}" x2="{start_x + chart_width}" y2="{chart_height / 2}" stroke="#2A2D33" stroke-width="0.5" stroke-dasharray="2 4"/>
+      <line x1="{start_x}" y1="{chart_height}" x2="{start_x + chart_width}" y2="{chart_height}" stroke="#2A2D33" stroke-width="1"/>
     </g>
 
     <!-- Area fill under line -->
@@ -157,26 +163,28 @@ def generate_stats_svg(data):
     </path>
 
     <!-- Main line -->
-    <path d="{line_path}" fill="none" stroke="#B7A9DE" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="900" stroke-dashoffset="900">
-      <animate attributeName="stroke-dashoffset" from="900" to="0" begin="0.3s" dur="1.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    <path d="{line_path}" fill="none" stroke="#B7A9DE" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1000" stroke-dashoffset="1000">
+      <animate attributeName="stroke-dashoffset" from="1000" to="0" begin="0.3s" dur="1.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </path>
 
-    <!-- Peak dots with commit counts -->
+    <!-- Peak dots -->
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.4s" fill="freeze" />{peak_dots_svg}
     </g>
 
-    <!-- Month labels along x-axis -->
+    <!-- Month labels -->
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.5s" fill="freeze" />{month_texts_svg}
     </g>
   </g>
 
-  <!-- Footer stats -->
-  <g transform="translate(0,242)" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.5s" fill="freeze" />
-    <text x="0" y="0" font-size="11" fill="#8B877E">{total_commits} commits</text>
-    <text x="120" y="0" font-size="11" fill="#8B877E">·</text>
-    <text x="140" y="0" font-size="11" fill="#8B877E">{total_prs} pr opened</text>
-    <text x="260" y="0" font-size="11" fill="#8B877E">·</text>
-    <text x="280" y="0" font-size="11" fill="#8B877E">{repos_contributed} repo contributed to</text>
+  <!-- Footer Layout -->
+  <g transform="translate(310, 245)" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.5s" fill="freeze" />
+    <text text-anchor="middle" font-size="10" letter-spacing="0.5">
+      <tspan class="b" fill="#B7A9DE">{total_commits}</tspan> <tspan fill="#8B877E">COMMITS</tspan>
+      <tspan fill="#2A2D33">   •   </tspan>
+      <tspan class="b" fill="#78A6C2">{total_prs}</tspan> <tspan fill="#8B877E">PULL REQUESTS</tspan>
+      <tspan fill="#2A2D33">   •   </tspan>
+      <tspan class="b" fill="#8FBF9F">{repos_contributed}</tspan> <tspan fill="#8B877E">REPOSITORIES</tspan>
+    </text>
   </g>
 </svg>
 '''
