@@ -120,13 +120,13 @@
     {
       "name": "JavaScript",
       "bytes": 1141203,
-      "pct": 51.3,
+      "pct": 51.29,
       "color": "#B7A9DE"
     },
     {
       "name": "TypeScript",
       "bytes": 785493,
-      "pct": 35.31,
+      "pct": 35.3,
       "color": "#78A6C2"
     },
     {
@@ -137,8 +137,8 @@
     },
     {
       "name": "Python",
-      "bytes": 77822,
-      "pct": 3.5,
+      "bytes": 78218,
+      "pct": 3.52,
       "color": "#8B877E"
     },
     {
