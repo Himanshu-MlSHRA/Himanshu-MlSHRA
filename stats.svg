@@ -28,7 +28,7 @@
   <!-- Left Side: Total Contributions -->
   <g transform="translate(20, 10)">
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.05s" dur="0.6s" fill="freeze" />
-      <text x="0" y="45" class="b" font-size="44" fill="#E7E3DC" letter-spacing="-0.5">153</text>
+      <text x="0" y="45" class="b" font-size="44" fill="#E7E3DC" letter-spacing="-0.5">142</text>
       <text x="2" y="65" font-size="11" fill="#8B877E" letter-spacing="0.2">contributions in the last year</text>
     </g>
   </g>
@@ -92,11 +92,11 @@
   <!-- Footer Layout -->
   <g transform="translate(310, 245)" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.5s" fill="freeze" />
     <text text-anchor="middle" font-size="10" letter-spacing="0.5">
-      <tspan class="b" fill="#B7A9DE">136</tspan> <tspan fill="#8B877E">COMMITS</tspan>
+      <tspan class="b" fill="#B7A9DE">126</tspan> <tspan fill="#8B877E">COMMITS</tspan>
       <tspan fill="#2A2D33">   •   </tspan>
       <tspan class="b" fill="#78A6C2">3</tspan> <tspan fill="#8B877E">PULL REQUESTS</tspan>
       <tspan fill="#2A2D33">   •   </tspan>
-      <tspan class="b" fill="#8FBF9F">14</tspan> <tspan fill="#8B877E">REPOSITORIES</tspan>
+      <tspan class="b" fill="#8FBF9F">13</tspan> <tspan fill="#8B877E">REPOSITORIES</tspan>
     </text>
   </g>
 </svg>
