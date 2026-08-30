@@ -1,14 +1,13 @@
 {
   "total_contributions": 144,
-  "active_days": 41,
+  "active_days": 40,
   "best_week": 23,
-  "current_streak": 1,
+  "current_streak": 0,
   "longest_streak": 6,
   "total_commits": 129,
   "total_prs": 3,
   "repos_contributed": 12,
   "weekly_contributions": [
-    1,
     8,
     6,
     2,
@@ -60,55 +59,56 @@
     23,
     3,
     0,
-    2
+    2,
+    0
   ],
   "month_labels": [
     {
-      "index": 2,
+      "index": 1,
       "month": "Sep"
     },
     {
-      "index": 6,
+      "index": 5,
       "month": "Oct"
     },
     {
-      "index": 10,
+      "index": 9,
       "month": "Nov"
     },
     {
-      "index": 15,
+      "index": 14,
       "month": "Dec"
     },
     {
-      "index": 19,
+      "index": 18,
       "month": "Jan"
     },
     {
-      "index": 23,
+      "index": 22,
       "month": "Feb"
     },
     {
-      "index": 27,
+      "index": 26,
       "month": "Mar"
     },
     {
-      "index": 32,
+      "index": 31,
       "month": "Apr"
     },
     {
-      "index": 36,
+      "index": 35,
       "month": "May"
     },
     {
-      "index": 41,
+      "index": 40,
       "month": "Jun"
     },
     {
-      "index": 45,
+      "index": 44,
       "month": "Jul"
     },
     {
-      "index": 49,
+      "index": 48,
       "month": "Aug"
     }
   ],
