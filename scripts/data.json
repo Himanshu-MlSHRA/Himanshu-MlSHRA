@@ -1,14 +1,13 @@
 {
-  "total_contributions": 170,
-  "active_days": 43,
-  "best_week": 27,
+  "total_contributions": 178,
+  "active_days": 42,
+  "best_week": 35,
   "current_streak": 3,
   "longest_streak": 6,
-  "total_commits": 152,
+  "total_commits": 160,
   "total_prs": 5,
   "repos_contributed": 13,
   "weekly_contributions": [
-    8,
     6,
     2,
     2,
@@ -60,56 +59,61 @@
     3,
     0,
     2,
-    27
+    35,
+    0
   ],
   "month_labels": [
     {
-      "index": 1,
+      "index": 0,
       "month": "Sep"
     },
     {
-      "index": 5,
+      "index": 4,
       "month": "Oct"
     },
     {
-      "index": 9,
+      "index": 8,
       "month": "Nov"
     },
     {
-      "index": 14,
+      "index": 13,
       "month": "Dec"
     },
     {
-      "index": 18,
+      "index": 17,
       "month": "Jan"
     },
     {
-      "index": 22,
+      "index": 21,
       "month": "Feb"
     },
     {
-      "index": 26,
+      "index": 25,
       "month": "Mar"
     },
     {
-      "index": 31,
+      "index": 30,
       "month": "Apr"
     },
     {
-      "index": 35,
+      "index": 34,
       "month": "May"
     },
     {
-      "index": 40,
+      "index": 39,
       "month": "Jun"
     },
     {
-      "index": 44,
+      "index": 43,
       "month": "Jul"
     },
     {
-      "index": 48,
+      "index": 47,
       "month": "Aug"
+    },
+    {
+      "index": 52,
+      "month": "Sep"
     }
   ],
   "languages": [
