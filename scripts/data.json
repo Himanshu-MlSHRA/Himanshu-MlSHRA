@@ -1,10 +1,10 @@
 {
-  "total_contributions": 248,
-  "active_days": 44,
-  "best_week": 78,
-  "current_streak": 1,
+  "total_contributions": 299,
+  "active_days": 46,
+  "best_week": 125,
+  "current_streak": 3,
   "longest_streak": 6,
-  "total_commits": 211,
+  "total_commits": 262,
   "total_prs": 5,
   "repos_contributed": 32,
   "weekly_contributions": [
@@ -58,9 +58,9 @@
     23,
     3,
     0,
-    2,
-    35,
-    78
+    4,
+    37,
+    125
   ],
   "month_labels": [
     {
@@ -119,38 +119,38 @@
   "languages": [
     {
       "name": "TypeScript",
-      "bytes": 2917145,
-      "pct": 43.36,
+      "bytes": 3134717,
+      "pct": 44.96,
       "color": "#B7A9DE"
     },
     {
       "name": "JavaScript",
-      "bytes": 2592077,
-      "pct": 38.53,
+      "bytes": 2592737,
+      "pct": 37.19,
       "color": "#78A6C2"
     },
     {
       "name": "Python",
       "bytes": 537129,
-      "pct": 7.98,
+      "pct": 7.7,
       "color": "#8FBF9F"
+    },
+    {
+      "name": "CSS",
+      "bytes": 317597,
+      "pct": 4.56,
+      "color": "#8B877E"
     },
     {
       "name": "HTML",
       "bytes": 303636,
-      "pct": 4.51,
-      "color": "#8B877E"
-    },
-    {
-      "name": "CSS",
-      "bytes": 291106,
-      "pct": 4.33,
+      "pct": 4.36,
       "color": "#B7A9DE"
     },
     {
       "name": "Jupyter Notebook",
       "bytes": 22475,
-      "pct": 0.33,
+      "pct": 0.32,
       "color": "#78A6C2"
     }
   ]
