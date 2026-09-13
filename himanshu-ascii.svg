@@ -9,7 +9,7 @@
       }
       text { font-family: 'JBM Medium', ui-monospace, monospace; }
     </style>
-  <clipPath id="typewriterClip" clipPathUnits="userSpaceOnUse">
+    <clipPath id="typewriterClip" clipPathUnits="userSpaceOnUse">
       <rect x="24" y="18" width="0" height="16">
         <animate attributeName="width" from="0" to="736" begin="0.20s" dur="0.35s" fill="freeze" />
       </rect>
@@ -179,13 +179,12 @@
         <animate attributeName="width" from="0" to="736" begin="4.60s" dur="0.35s" fill="freeze" />
       </rect>
     </clipPath>
-    </defs>
-  <g id="zoomGroup" transform="scale(1.05)">
-    <rect x="24" y="18" width="2" height="16" fill="#c9d1d9" opacity="0">
-      <set attributeName="opacity" to="1" begin="0.20s" />
-      <animate attributeName="opacity" values="1;0;1" dur="1s" begin="0.20s" repeatCount="indefinite" />
-    </rect>
-    <text x="20" y="30" fill="#e6dfdf" font-size="14" xml:space="preserve" clip-path="url(#typewriterClip)">
+  </defs>
+  <rect x="24" y="18" width="2" height="16" fill="#c9d1d9" opacity="0">
+    <set attributeName="opacity" to="1" begin="0.20s" />
+    <animate attributeName="opacity" values="1;0;1" dur="1s" begin="0.20s" repeatCount="indefinite" />
+  </rect>
+  <text x="20" y="30" fill="#e6dfdf" font-size="14" xml:space="preserve" clip-path="url(#typewriterClip)">
     <tspan x="22">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
     <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
     <tspan x="24" dy="14">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;.$&amp;X$ .X+x&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan>
@@ -243,7 +242,6 @@
     <tspan x="24" dy="14">                                            ;$$x</tspan>
     <tspan x="24" dy="14">                                             XX</tspan>
   </text>
-  </g>
   <rect x="12" y="12" width="720" height="856" rx="18" fill="none" stroke="#c9d1d9" stroke-opacity="0.22" stroke-width="2"/>
 </svg>
 
