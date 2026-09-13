@@ -10,173 +10,173 @@
       text { font-family: 'JBM Medium', ui-monospace, monospace; }
     </style>
     <clipPath id="typewriterClip" clipPathUnits="userSpaceOnUse">
-      <rect x="24" y="18" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="0.20s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="36.8" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="0.20s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="32" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="0.28s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="51.2" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="0.28s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="46" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="0.36s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="65.6" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="0.36s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="60" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="0.44s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="80.0" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="0.44s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="74" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="0.52s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="94.4" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="0.52s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="88" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="0.60s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="108.8" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="0.60s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="102" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="0.68s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="123.2" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="0.68s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="116" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="0.76s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="137.6" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="0.76s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="130" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="0.84s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="152.0" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="0.84s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="144" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="0.92s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="166.4" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="0.92s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="158" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="1.00s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="180.8" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="1.00s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="172" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="1.08s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="195.2" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="1.08s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="186" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="1.16s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="209.6" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="1.16s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="200" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="1.24s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="224.0" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="1.24s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="214" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="1.32s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="238.4" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="1.32s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="228" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="1.40s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="252.8" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="1.40s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="242" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="1.48s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="267.2" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="1.48s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="256" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="1.56s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="281.6" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="1.56s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="270" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="1.64s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="296.0" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="1.64s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="284" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="1.72s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="310.4" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="1.72s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="298" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="1.80s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="324.8" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="1.80s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="312" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="1.88s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="339.2" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="1.88s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="326" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="1.96s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="353.6" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="1.96s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="340" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="2.04s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="368.0" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="2.04s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="354" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="2.12s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="382.4" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="2.12s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="368" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="2.20s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="396.8" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="2.20s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="382" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="2.28s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="411.2" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="2.28s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="396" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="2.36s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="425.6" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="2.36s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="410" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="2.44s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="440.0" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="2.44s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="424" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="2.52s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="454.4" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="2.52s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="438" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="2.60s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="468.8" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="2.60s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="452" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="2.68s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="483.2" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="2.68s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="466" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="2.76s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="497.6" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="2.76s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="480" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="2.84s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="512.0" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="2.84s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="494" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="2.92s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="526.4" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="2.92s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="508" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="3.00s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="540.8" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="3.00s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="522" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="3.08s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="555.2" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="3.08s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="536" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="3.16s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="569.6" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="3.16s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="550" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="3.24s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="584.0" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="3.24s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="564" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="3.32s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="598.4" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="3.32s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="578" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="3.40s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="612.8" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="3.40s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="592" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="3.48s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="627.2" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="3.48s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="606" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="3.56s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="641.6" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="3.56s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="620" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="3.64s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="656.0" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="3.64s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="634" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="3.72s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="670.4" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="3.72s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="648" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="3.80s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="684.8" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="3.80s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="662" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="3.88s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="699.2" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="3.88s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="676" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="3.96s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="713.6" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="3.96s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="690" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="4.04s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="728.0" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="4.04s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="704" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="4.12s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="742.4" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="4.12s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="718" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="4.20s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="756.8" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="4.20s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="732" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="4.28s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="771.2" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="4.28s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="746" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="4.36s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="785.6" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="4.36s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="760" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="4.44s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="800.0" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="4.44s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="774" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="4.52s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="814.4" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="4.52s" dur="0.35s" fill="freeze" />
       </rect>
-      <rect x="24" y="788" width="0" height="16">
-        <animate attributeName="width" from="0" to="736" begin="4.60s" dur="0.35s" fill="freeze" />
+      <rect x="44.6" y="828.8" width="0" height="15.0">
+        <animate attributeName="width" from="0" to="672.8" begin="4.60s" dur="0.35s" fill="freeze" />
       </rect>
     </clipPath>
   </defs>
