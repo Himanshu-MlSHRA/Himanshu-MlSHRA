@@ -1,12 +1,12 @@
 {
-  "total_contributions": 332,
+  "total_contributions": 330,
   "active_days": 45,
-  "best_week": 125,
+  "best_week": 123,
   "current_streak": 0,
   "longest_streak": 6,
-  "total_commits": 297,
+  "total_commits": 296,
   "total_prs": 5,
-  "repos_contributed": 30,
+  "repos_contributed": 29,
   "weekly_contributions": [
     6,
     0,
@@ -57,7 +57,7 @@
     0,
     4,
     37,
-    125,
+    123,
     22,
     21,
     0
@@ -116,31 +116,31 @@
     {
       "name": "TypeScript",
       "bytes": 3137566,
-      "pct": 41.02,
+      "pct": 41.05,
       "color": "#B7A9DE"
     },
     {
       "name": "JavaScript",
-      "bytes": 2592737,
+      "bytes": 2590626,
       "pct": 33.9,
       "color": "#78A6C2"
     },
     {
       "name": "HTML",
-      "bytes": 977724,
-      "pct": 12.78,
+      "bytes": 977363,
+      "pct": 12.79,
       "color": "#8FBF9F"
     },
     {
       "name": "Python",
       "bytes": 537129,
-      "pct": 7.02,
+      "pct": 7.03,
       "color": "#8B877E"
     },
     {
       "name": "CSS",
-      "bytes": 317164,
-      "pct": 4.15,
+      "bytes": 314155,
+      "pct": 4.11,
       "color": "#B7A9DE"
     },
     {
