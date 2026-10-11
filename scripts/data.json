@@ -8,7 +8,6 @@
   "total_prs": 5,
   "repos_contributed": 30,
   "weekly_contributions": [
-    0,
     4,
     0,
     5,
@@ -60,59 +59,56 @@
     22,
     21,
     2,
-    3
+    3,
+    0
   ],
   "month_labels": [
     {
-      "index": 0,
-      "month": "Oct"
-    },
-    {
-      "index": 4,
+      "index": 3,
       "month": "Nov"
     },
     {
-      "index": 9,
+      "index": 8,
       "month": "Dec"
     },
     {
-      "index": 13,
+      "index": 12,
       "month": "Jan"
     },
     {
-      "index": 17,
+      "index": 16,
       "month": "Feb"
     },
     {
-      "index": 21,
+      "index": 20,
       "month": "Mar"
     },
     {
-      "index": 26,
+      "index": 25,
       "month": "Apr"
     },
     {
-      "index": 30,
+      "index": 29,
       "month": "May"
     },
     {
-      "index": 35,
+      "index": 34,
       "month": "Jun"
     },
     {
-      "index": 39,
+      "index": 38,
       "month": "Jul"
     },
     {
-      "index": 43,
+      "index": 42,
       "month": "Aug"
     },
     {
-      "index": 48,
+      "index": 47,
       "month": "Sep"
     },
     {
-      "index": 52,
+      "index": 51,
       "month": "Oct"
     }
   ],
