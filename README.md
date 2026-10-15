@@ -4,7 +4,7 @@
 
 <img src="./stats.svg" width="620" alt="Contributions in the last year"/>
 
-<a href="https://portfolio-kappa-seven-3yiwb2fpov.vercel.app/"><img src="./social-portfolio.svg" width="150" alt="portfolio"/></a><a href="https://www.linkedin.com/in/himanshu-mishra-b4577b20b/"><img src="./social-linkedin.svg" width="150" alt="linkedin"/></a><a href="https://www.instagram.com/anshul1ll/"><img src="./social-instagram.svg" width="150" alt="instagram"/></a><a href="mailto:himanshu.2010m@gmail.com"><img src="./social-email.svg" width="150" alt="email"/></a>
+<a href="https://himanshuratnakarmishra.vercel.app/"><img src="./social-portfolio.svg" width="150" alt="portfolio"/></a><a href="https://www.linkedin.com/in/himanshu-mishra-b4577b20b/"><img src="./social-linkedin.svg" width="150" alt="linkedin"/></a><a href="https://www.instagram.com/anshul1ll/"><img src="./social-instagram.svg" width="150" alt="instagram"/></a><a href="mailto:himanshu.2010m@gmail.com"><img src="./social-email.svg" width="150" alt="email"/></a>
 
 </div>
 
@@ -18,14 +18,14 @@
 
 <img src="./hd-projects.svg" width="620" alt="projects"/>
 
-**<samp>[Amongus for Coders](https://github.com/Himanshu-MlSHRA/AmongUS)</samp>** &nbsp;·&nbsp; <samp>React.js, Node.js, MongoDB</samp><br>
-<samp>A real-time multiplayer platform designed for collaborative problem solving and shared debugging. Built with React and Node.js to provide seamless socket-based interactions and an engaging environment for developers.</samp><br><br>
+**<samp>[Lumina](https://luminamentalwellnessplatform.vercel.app)</samp>** &nbsp;·&nbsp; <samp>React, TypeScript, Node.js, Socket.IO, Gemini</samp><br>
+<samp>A mental wellness app where you talk to an AI by voice in real time. It also has mood tracking with charts, daily tasks made by AI, and community chat.</samp><br><br>
 
-**<samp>[AI Wellness Game](https://github.com/Himanshu-MlSHRA/lumina)</samp>** &nbsp;·&nbsp; <samp>TypeScript, Node.js, ML</samp><br>
-<samp>An interactive mental wellness platform integrating voice-based AI interactions and daily mood tracking. It delivers personalized activity guidance to support users' emotional well-being through an intuitive and minimal interface.</samp><br><br>
+**<samp>[Present! – Smart Attendance](https://smart-attendance-system-black.vercel.app)</samp>** &nbsp;·&nbsp; <samp>Python, Flask, face_recognition, React</samp><br>
+<samp>Attendance with face recognition. A webcam or a class photo marks students present. Teachers get dashboards and reports, and students can check in with their own face.</samp><br><br>
 
-**<samp>[Smart Attendance System](https://github.com/Himanshu-MlSHRA/smart-attendance-system)</samp>** &nbsp;·&nbsp; <samp>Python</samp><br>
-<samp>An automated attendance tracking system powered by a robust Python backend. It streamlines the process of marking and managing attendance data, complete with comprehensive tools for viewing and exporting daily records.</samp><br><br>
+**<samp>[AmongUS for Coders](https://github.com/Himanshu-MlSHRA/AmongUS)</samp>** &nbsp;·&nbsp; <samp>React, Node.js, Socket.IO</samp><br>
+<samp>A multiplayer coding game. Players write code together in one live editor while secret imposters try to break it, then everyone votes them out.</samp><br><br>
 
 <img src="./hd-stats.svg" width="620" alt="stats"/>
 
