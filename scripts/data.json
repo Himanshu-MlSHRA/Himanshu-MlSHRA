@@ -1,14 +1,13 @@
 {
-  "total_contributions": 336,
-  "active_days": 46,
+  "total_contributions": 338,
+  "active_days": 47,
   "best_week": 123,
-  "current_streak": 0,
+  "current_streak": 1,
   "longest_streak": 6,
-  "total_commits": 302,
+  "total_commits": 303,
   "total_prs": 5,
-  "repos_contributed": 29,
+  "repos_contributed": 30,
   "weekly_contributions": [
-    0,
     5,
     0,
     0,
@@ -60,55 +59,56 @@
     2,
     3,
     11,
-    0
+    0,
+    2
   ],
   "month_labels": [
     {
-      "index": 2,
+      "index": 1,
       "month": "Nov"
     },
     {
-      "index": 7,
+      "index": 6,
       "month": "Dec"
     },
     {
-      "index": 11,
+      "index": 10,
       "month": "Jan"
     },
     {
-      "index": 15,
+      "index": 14,
       "month": "Feb"
     },
     {
-      "index": 19,
+      "index": 18,
       "month": "Mar"
     },
     {
-      "index": 24,
+      "index": 23,
       "month": "Apr"
     },
     {
-      "index": 28,
+      "index": 27,
       "month": "May"
     },
     {
-      "index": 33,
+      "index": 32,
       "month": "Jun"
     },
     {
-      "index": 37,
+      "index": 36,
       "month": "Jul"
     },
     {
-      "index": 41,
+      "index": 40,
       "month": "Aug"
     },
     {
-      "index": 46,
+      "index": 45,
       "month": "Sep"
     },
     {
-      "index": 50,
+      "index": 49,
       "month": "Oct"
     }
   ],
@@ -116,37 +116,37 @@
     {
       "name": "TypeScript",
       "bytes": 3352226,
-      "pct": 41.56,
+      "pct": 36.01,
       "color": "#B7A9DE"
     },
     {
       "name": "JavaScript",
-      "bytes": 2654542,
-      "pct": 32.91,
+      "bytes": 2764084,
+      "pct": 29.69,
       "color": "#78A6C2"
+    },
+    {
+      "name": "QML",
+      "bytes": 1053386,
+      "pct": 11.32,
+      "color": "#8FBF9F"
     },
     {
       "name": "HTML",
       "bytes": 966967,
-      "pct": 11.99,
-      "color": "#8FBF9F"
-    },
-    {
-      "name": "Python",
-      "bytes": 659521,
-      "pct": 8.18,
+      "pct": 10.39,
       "color": "#8B877E"
     },
     {
-      "name": "CSS",
-      "bytes": 345912,
-      "pct": 4.29,
+      "name": "Python",
+      "bytes": 660470,
+      "pct": 7.1,
       "color": "#B7A9DE"
     },
     {
-      "name": "Jupyter Notebook",
-      "bytes": 22475,
-      "pct": 0.28,
+      "name": "CSS",
+      "bytes": 367000,
+      "pct": 3.94,
       "color": "#78A6C2"
     }
   ]
