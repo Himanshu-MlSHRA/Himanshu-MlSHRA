@@ -10,7 +10,6 @@
   "weekly_contributions": [
     0,
     0,
-    0,
     16,
     21,
     0,
@@ -60,55 +59,56 @@
     0,
     16,
     0,
-    6
+    6,
+    0
   ],
   "month_labels": [
     {
-      "index": 4,
+      "index": 3,
       "month": "Dec"
     },
     {
-      "index": 8,
+      "index": 7,
       "month": "Jan"
     },
     {
-      "index": 12,
+      "index": 11,
       "month": "Feb"
     },
     {
-      "index": 16,
+      "index": 15,
       "month": "Mar"
     },
     {
-      "index": 21,
+      "index": 20,
       "month": "Apr"
     },
     {
-      "index": 25,
+      "index": 24,
       "month": "May"
     },
     {
-      "index": 30,
+      "index": 29,
       "month": "Jun"
     },
     {
-      "index": 34,
+      "index": 33,
       "month": "Jul"
     },
     {
-      "index": 38,
+      "index": 37,
       "month": "Aug"
     },
     {
-      "index": 43,
+      "index": 42,
       "month": "Sep"
     },
     {
-      "index": 47,
+      "index": 46,
       "month": "Oct"
     },
     {
-      "index": 51,
+      "index": 50,
       "month": "Nov"
     }
   ],
